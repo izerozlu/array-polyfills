@@ -29,8 +29,3 @@ Array.prototype.reducePolyfill = function (handler, initialValue) {
 
   return accumulator;
 };
-
-Array.prototype.everyPolyfill = function (handler) {};
-
-const filterResult = [1, 2, 3].filterPolyfill((item) => item % 2 === 0);
-const reduceResult = [1, 2, 3].reducePolyfill((sum, item) => sum + item, 0);
