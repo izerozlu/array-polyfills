@@ -1,0 +1,12 @@
+{
+  "name": "array-polyfills",
+  "version": "1.0.0",
+  "description": "A list of some array functions' polyfills.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:watch": "node --watch index.js"
+  },
+  "author": "izerozlu",
+  "license": "MIT"
+}
